@@ -1,0 +1,100 @@
+/*
+ * Basic Landing Page CSS
+ *
+ * This CSS file serves as a base for the Landing page challenge - beginner level, created by Rafael Meneses (@rtio).
+ * It provides a color scheme for the landing page, which includes shades of black for a Material UI-inspired design.
+ *
+ * License: MIT (c) 2023 Rafael Meneses
+ * https://github.com/rtio/landing-page-challenge
+ */
+
+
+/* default color variables */
+:root {
+    --primary: #BB86FC;
+    --primary-light: #D1C4FE;
+    --secondary: #03DAC6;
+    --surface: #2c2f33;
+    --background: #121212;
+
+    --on-surface: #ffffff;
+    --on-background: #ffffffde;
+    --on-primary: #121212;
+}
+
+/* reset styles */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    color: var(--on-surface);
+}
+
+header{
+    background-color: var(--surface);
+}
+
+nav{
+    background-color: var(--surface);
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+nav ul {
+    color: var(--on-surface);
+    overflow: hidden;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    float: right;
+    vertical-align: middle;
+    }
+
+nav li a {
+    color: var(--on-surface);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: small;
+    padding: 1rem;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+nav li a:hover {
+    color: var(--primary-light);
+    opacity: 0.7;
+}
+
+.section1 {
+
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    height: 175px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: var(--surface);
+}
+
+.section1 h1 {
+    padding: 1rem;
+}
+
+.section1 p {
+    font-size: small;
+    <br>
+}
+
+.section1 a{
+    background-color: var(--primary);
+    color: var(--on-surface);
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+}
+  
